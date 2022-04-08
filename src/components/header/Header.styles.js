@@ -1,81 +1,91 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import logo from '../../assets/logo.png'
+import cart from '../../assets/cart.png'
+import profile from '../../assets/profile.png'
+import cartHover from '../../assets/cart-hover.png'
+import profileHover from '../../assets/profile-hover.png'
 
 export default createGlobalStyle `
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
-`
-
-export const Logo = styled.div `
-  background-image: url(${logo});
-  width: 97px;
-  height: 37px;
-  margin-top: 14px;
-`
-
-export const LogoTitle = styled.div `
-  color: white;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-`
-
-export const LoginOrRegister = styled.div `
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  justify-content: end;
-  float: right;
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 `
 
 export const HeaderDiv = styled.div `
   position: fixed;
   top: 0;
   left: 0;
-  background: #008b3d;
+  background: #3F51B5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
   width: 100%;
   height: 64px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 `
 
-export const Title = styled.div `
-  color: white;
-  font-size: 20px;
-  margin-top: 4px;
-  padding: 20px;
+export const Logo = styled.div `
+  background-image: url(${logo});
+  width: 225px;
+  height: 32px;
+  margin-left: 200px;
 `
 
-export const Login = styled.div `
+export const Links = styled.div `
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  padding-right: 200px;
+`
+
+export const Catalogue = styled.div `
   color: white;
+  height: 20px;
   font-size: 20px;
-  margin-top: 4px;
   cursor: pointer;
-  padding: 20px;
-  margin: auto;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+
+  :hover {
+    color: #F7996E;
+    text-decoration: underline;
+  }
+
 `
 
-export const Register = styled.div `
+export const Electronics = styled.div `
   color: white;
   font-size: 20px;
-  margin-top: 4px;
   cursor: pointer;
-  margin: auto;
-  padding: 20px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+
+  :hover {
+    color: #F7996E;
+    text-decoration: underline;
+  }
+`
+export const Cart = styled.div `
+  background-image: url(${cart});
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  :hover {
+    background-image: url(${cartHover});
+  }
 `
 
-export const Home = styled.div `
-  color: white;
-  font-size: 20px;
-  margin-top: 4px;
+export const Profile = styled.div `
+  background-image: url(${profile});
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
-  margin: auto;
-  padding: 20px;
-`
 
-export const Logout = styled.div `
-  color: white;
-  font-size: 20px;
-  margin-top: 4px;
-  cursor: pointer;
-  margin: auto;
-  padding: 20px;
+  :hover {
+    background-image: url(${profileHover});
+  }
 `

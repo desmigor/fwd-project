@@ -1,27 +1,28 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle `
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 `
 
 export const FooterDiv = styled.div `
-  border-top: 1px solid #008B3D;
-  position: fixed;
+  border-top: 1px solid #DBDEF1;
+  position: absolute;
   bottom: 0;
-  right: 0;
-  background: white;
-  width: 100%;
+  width: 90%;
   height: 50px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 `
 
-export const Email = styled.div `
-  color: #008B3D;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: medium;
-  margin: auto;
+export const Copyright = styled.div `
+  color: #757575;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 `

@@ -1,11 +1,11 @@
 import React from 'react'
-import { FooterDiv, Email } from './Footer.styles'
+import { FooterDiv, Copyright } from './Footer.styles'
 
 function Footer() {
   return (
     <div>
       <FooterDiv>
-        <Email> i.mpore@innopolis.university </Email>
+        <Copyright> 2022 © Marketplace Technologies. All rights reserved </Copyright>
       </FooterDiv>
     </div>
   )
