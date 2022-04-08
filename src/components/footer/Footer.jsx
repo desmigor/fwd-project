@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterDiv, Email } from '../ui/Footer.styles'
+import { FooterDiv, Email } from './Footer.styles'
 
 function Footer() {
   return (

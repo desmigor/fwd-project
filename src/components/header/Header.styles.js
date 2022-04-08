@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
-import logo from './images/logo.png'
+import logo from '../../assets/logo.png'
 
 export default createGlobalStyle `
   @import url('https://fonts.googleapis.com/css?family=Roboto');
