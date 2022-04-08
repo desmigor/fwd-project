@@ -18,35 +18,35 @@ This is a project for the Frontend web development elective at Innopolis Univers
 
 ### 2.1 Products List
 
-![Catalogue]()
+![Catalogue](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Catalogue.png)
 
 ### 2.2 Electronics
 
-![Electronics]()
+![Electronics](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Electronics.png)
 
 ### 2.3 Product View
 
-![Product]()
+![Product](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Product.png)
 
 ### 2.4 Cart
 
-![Catalogue]()
+![Cart](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Cart.png)
 
 ### 2.5 Registration
 
-![Catalogue]()
+![Registration](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Registration.png)
 
 ### 2.6 Checkout Shipping Address
 
-![Catalogue]()
+![Checkout1](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Checkout1.png)
 
 ### 2.7 Checkout Payment Details
 
-![Catalogue]()
+![Checkout2](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Checkout2.png)
 
 ### 2.8 Orders
 
-![Catalogue]()
+![Orders](https://github.com/desmigor/fwd-project/blob/main/screenshoots/Orders.png)
 
 ## 3. Team Credits
 
