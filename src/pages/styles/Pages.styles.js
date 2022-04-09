@@ -1,36 +1,81 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle `
-  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 `
 
-export const Label = styled.label `
-  font-family: Roboto, sans-serif;
-  font-size: 11pt;
+export const PageTitle = styled.h1 `
+  color: #3F51B5;
+  padding-top: 50px;
+  margin-left: 190px;
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 400;
 `
+export const Grid = styled.div `
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 3rem;
+`
+export const h4 = styled.h4 `
+  color: black;
+  font-size: 20px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+`
+export const ProdCard = styled.div `
+  background: #FFFFFF;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width: 280px;
+  height: 350px;
+  display: flex;
+  gap: 3px;
+  align-items: flex-end;
+  padding: 16px;
+  overflow: hidden;
+  position: relative;
 
-export const ForgotPass = styled.legend `
-  color: #008B3D;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
-  font-style: normal;
+  img {
+  position: static;
+  width: 280px;
+  height: 194px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px 4px 0px 0px;
+  }
+  h4 {
+  color: black;
+  font-size: 20px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  }
+
+  p {
+  color: black;
+  height: 40px;
+  font-size: 20px;
+  font-family: Lato;
   font-size: 14px;
-  margin-top: 3px;
-  text-align: left;
-`
+  font-weight: 300;
+  }
 
-export const Card = styled.div `
-  background: #ffffff;
-  border-radius: 20px;
-  border: 1px solid #008B3D;
-  box-sizing: border-box;
-  height: 529px;
-  margin: 6rem auto 8.1rem auto;
-  width: 372px;
-`
+  button {
+    background-color: #3F51B5;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    width: 38px;
+    height: 36px;
+    float: right;
+    padding: 16px;
 
-export const CardContent = styled.div `
-  padding: 12px 44px;
+  }
 `
 
 export const CardTitle = styled.div `
@@ -43,34 +88,6 @@ export const CardTitle = styled.div `
   padding-bottom: 23px;
   padding-top: 13px;
   color: #008B3D;
-`
-
-export const LoginBtn = styled.input `
-  background: #008B3D;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  color: white;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  margin-top: 50px;
-  padding: 20px;
-  width: 100%;
-`
-
-export const SignupBtn = styled.input `
-  background: #008B3D;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  color: white;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  margin-top: 50px;
-  padding: 20px;
-  width: 100%;
 `
 
 export const Form = styled.form `
@@ -89,32 +106,6 @@ export const FormContent = styled.input `
   height: 25px;
 `
 
-export const WelcomePage = createGlobalStyle `
-  body {
-    background: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html {
-    height: 100%;
-    width: 100%;
-  }
-`
-
-export const Welcome = styled.div `
-  color: #008B3D;
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: xxx-large;
-`
 
 export const HomeInfo = styled.div `
   padding-top: 600px;

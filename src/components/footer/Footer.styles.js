@@ -6,7 +6,8 @@ export default createGlobalStyle `
 
 export const FooterDiv = styled.div `
   border-top: 1px solid #DBDEF1;
-  position: absolute;
+  background-color: white;
+  position: fixed;
   bottom: 0;
   width: 90%;
   height: 50px;
