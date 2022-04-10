@@ -6,6 +6,12 @@ This is a project for the Frontend web development elective at Innopolis Univers
 >
 > [Fake Store API](https://fakestoreapi.com/)
 
+To run the project;
+- Clone the repo
+- Run `npm install` in the main directory to install project dependencies
+- Lastly, do `npm start` to view it in the browser
+- Voilà :) you're in ABIBAS Store on `http://localhost:3000/`
+
 ## 1. Project Stack
 
 - React Javascript Library
