@@ -6,7 +6,7 @@ This is a project for the Frontend web development elective at Innopolis Univers
 >
 > [Fake Store API](https://fakestoreapi.com/)
 
-To run the project;
+To run the project, do the following:
 - Clone the repo
 - Run `npm install` in the main directory to install project dependencies
 - Lastly, do `npm start` to view it in the browser
