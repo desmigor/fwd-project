@@ -15,8 +15,9 @@ To run the project, do the following:
 ## 1. Project Stack
 
 - React Javascript Library
-- Material Ui & Styled Components
+- Styled Components
 - Webpack
+- Babel
 - ESlint
 - Prettier
 
