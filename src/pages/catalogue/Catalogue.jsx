@@ -1,18 +1,24 @@
 import React, { useState, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
-import { PageTitle, Grid, ProdCard, h4 } from '../styles/Pages.styles'
+import { PageTitle, Grid, ProdCard, ProdButton } from '../styles/Pages.styles'
 
 function Home() {
-  const [catal, SetCatal] = useState()
+  const [catal, SetCatal] = useState([])
 
   const getCatal = async () => {
-    const api = await fetch('https://fakestoreapi.com/products')
-    const data = await api.json()
-    SetCatal(data.product)
-    console.log(data)
-    console.log(data[0].title)
+    const check = localStorage.getItem('products')
+    if (check) {
+      SetCatal(JSON.parse(check))
+    } else {
+      const api = await fetch('https://fakestoreapi.com/products')
+      const data = await api.json()
+      localStorage.setItem('products', JSON.stringify(data))
+      SetCatal(data)
+      // console.log(data)
+      // console.log(data[0].title)
+    }
   }
 
   useEffect(() => {
@@ -21,8 +27,20 @@ function Home() {
 
   return (
     <div>
-      <Header />
       <PageTitle> Catalogue </PageTitle>
+      <Grid>
+        {catal.map((product) => {
+          return (
+            <ProdCard key={product.id}>
+              <img src={product.image} alt="" />
+              <h4>{product.title}</h4>
+              <p>{product.category}</p>
+              <ProdButton>${product.price}</ProdButton>
+            </ProdCard>
+          )
+        })}
+      </Grid>
+      <Header />
       <Footer />
     </div>
   )

@@ -9,7 +9,7 @@ export const FooterDiv = styled.div `
   background-color: white;
   position: fixed;
   bottom: 0;
-  width: 90%;
+  width: 100%;
   height: 50px;
   margin-left: auto;
   margin-right: auto;

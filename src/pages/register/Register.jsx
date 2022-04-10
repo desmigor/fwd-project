@@ -5,7 +5,7 @@ import { RegForm, FormHeader, LockImage, FormInput, RegisterButton } from '../st
 
 function Register() {
   return (
-    <div>
+    <div style={{ height: '100%', position: 'relative' }}>
       <Header />
       <RegForm>
         <LockImage />
