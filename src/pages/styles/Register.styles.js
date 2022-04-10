@@ -43,14 +43,13 @@ export const LockImage = styled.div `
 
 export const RegisterButton = styled.button `
   background-color: #3f51b5;
-  
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   color: white;
+  text-align: center;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Lato;
-  font-size: 14px;
   font-weight: 400;
   width: 400px;
   height: 60px;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import { PageTitle } from '../styles/Pages.styles'
@@ -64,7 +65,9 @@ function Cart() {
             <h4>Total</h4>
             <h4>$1354.99</h4>
           </ProductTotals>
-          <CartButton>PROCEED TO CHECKOUT</CartButton>
+          <NavLink to="/register">
+            <CartButton>PROCEED TO CHECKOUT</CartButton>
+          </NavLink>
         </CartSummary>
       </Cartinfo>
       <Footer />

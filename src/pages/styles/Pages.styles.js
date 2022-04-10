@@ -58,7 +58,6 @@ export const ProdCard = styled.div `
   font-size: 14px;
   font-weight: 300;
   }
-
 `
 export const ProdButton = styled.div `
   background-color: #3F51B5;
@@ -74,7 +73,6 @@ export const ProdButton = styled.div `
   padding-top: 16px;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
   margin-left: 216px;
 
 `

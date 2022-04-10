@@ -76,7 +76,7 @@ export const ProductPrice = styled.div `
     // Cart Summary
 export const CartSummary = styled.div `
   width: 380px;
-  height: 340px;
+  height: 310px;
   background: #FFFFFF;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -87,6 +87,7 @@ export const CartSummary = styled.div `
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
+    margin-top: 16px;
   }
   
 `

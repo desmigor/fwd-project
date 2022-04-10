@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-// import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import { PageTitle, Grid, ProdCard, ProdButton } from '../styles/Pages.styles'
@@ -35,7 +35,9 @@ function Home() {
               <img src={product.image} alt="" />
               <h4>{product.title}</h4>
               <p>{product.category}</p>
-              <ProdButton>${product.price}</ProdButton>
+              <NavLink style={{ textDecoration: 'none' }} to={`/product/${product.id}`}>
+                <ProdButton>${product.price}</ProdButton>
+              </NavLink>
             </ProdCard>
           )
         })}
