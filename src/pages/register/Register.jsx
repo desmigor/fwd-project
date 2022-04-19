@@ -11,8 +11,8 @@ function Register() {
       <RegForm>
         <LockImage />
         <FormHeader>Create Account</FormHeader>
-        <FormInput placeholder="Email" />
-        <FormInput placeholder="Password" />
+        <FormInput type="email" placeholder="Email" />
+        <FormInput type="password" placeholder="Password" />
         <NavLink to="/checkout1">
           <RegisterButton>SIGN UP</RegisterButton>
         </NavLink>

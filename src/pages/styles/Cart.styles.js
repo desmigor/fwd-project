@@ -20,7 +20,7 @@ export const CartProducts = styled.div `
 export const CartCard = styled.div `
   width: 620px;
   height: 196px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   display: flex;
@@ -65,19 +65,19 @@ export const CrossImage = styled.div `
 `
 
 export const ProductPrice = styled.div `
-    color: black;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: right;
-    padding-top: 130px;
-    padding-right: 24px;
+  color: black;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 130px;
+  padding-right: 24px;
 `
     // Cart Summary
 export const CartSummary = styled.div `
   width: 380px;
   height: 310px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 0px 16px 16px 16px;
@@ -89,10 +89,9 @@ export const CartSummary = styled.div `
     font-weight: 700;
     margin-top: 16px;
   }
-  
 `
 export const CartButton = styled.button `
-  background-color: #3F51B5;
+  background-color: #3f51b5;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   color: white;
@@ -122,5 +121,4 @@ export const ProductTotals = styled.div `
     font-size: 20px;
     font-weight: 700;
   }
-
 `

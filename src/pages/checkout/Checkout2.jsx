@@ -25,7 +25,7 @@ function Checkout2() {
         <InputLarge placeholder="Card number *" />
         <InputSmallDiv>
           <InputSmall placeholder="Valid thru *" />
-          <InputSmall placeholder="CVC code *" />
+          <InputSmall type="password" placeholder="CVC code *" />
         </InputSmallDiv>
         <InputLarge placeholder="Cardholder *" />
         <NavLink to="/catalogue">
