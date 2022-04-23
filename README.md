@@ -1,6 +1,6 @@
 # Frontend Web Development (ABIBAS Store)
 
-This is a project for the Frontend web development elective at Innopolis University. In this project, I created a simple version of an e-commerce website using Fake Store API for the Products, Cart, Users and Login Tokens; thanks to [MohammadReza Keikavousi](https://github.com/keikaavousi/fake-store-api) for this cool free API.
+This is a project for the Frontend web development course. It is a simple version of an e-commerce website using Fake Store API for the Products, Cart, Users and Login Tokens; thanks to [MohammadReza Keikavousi](https://github.com/keikaavousi/fake-store-api) for this cool free API.
 
 > [Github Repository](https://github.com/desmigor/fwd-project)
 >
