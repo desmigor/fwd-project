@@ -15,7 +15,6 @@ To run the project, do the following:
 ## 1. Project Stack
 
 - React Javascript Library
-- Styled Components
 - Webpack
 - Babel
 - ESlint
